@@ -33,8 +33,8 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Javascript</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>변수 선언을 위한 var,let,const의 차이를 알고 목적에 맞게 사용했습니다.</li>
-                                <li>try,catch문을 활용하여 에러처리를 했습니다.</li>
+                                <li>변수 선언을하고 목적에 맞게 사용했습니다.</li>
+                                <li>try,catch문을 활용하여 에러처리하는 방법을 사용하였습니다.</li>
                                 <li>동기,비동기처리를 통하여 실행순서를 효율적으로 처리하였습니다.</li>
                             </ul>
                         </li>

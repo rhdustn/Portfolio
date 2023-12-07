@@ -1,7 +1,7 @@
 import { Wrapper, Heading } from '../components/common'
 import { FaExternalLinkAlt } from 'react-icons/fa'
-import { DiJavascript, DiNodejs, DiGithubBadge,DiHtml5 } from 'react-icons/di'
-import { SiNextdotjs, SiTypescript, SiTailwindcss,SiExpress } from 'react-icons/si'
+import { DiJavascript, DiNodejs, DiGithubBadge, DiHtml5 } from 'react-icons/di'
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiExpress } from 'react-icons/si'
 import { DiTrello } from 'react-icons/di'
 import { DiReact } from 'react-icons/di'
 import useModal from '../hooks/useModal'
@@ -9,14 +9,17 @@ import Modal from '../components/modal'
 import NextJs from '../img/1.png'
 import NextJsDark from '../img/1Dark.png'
 import ReactImg from '../img/react.png'
-import ReactPhone from "../img/reactPhone.png"
+import ReactPhone from '../img/reactPhone.png'
 import React, { useState } from 'react'
 import Slide from './Slide'
 import ReactSlide from './ReactSlide'
+import NodeSlide from './NodeSlide'
+import Node from '../img/node.png'
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
     const [isShowingModal2, toggleModal2] = useModal()
+    const [isShowingModal3, toggleModal3] = useModal()
     const [hovered, setHovered] = useState(false)
 
     const handleHover = () => {
@@ -42,7 +45,7 @@ const Projects = () => {
                             className="w-full"
                             onMouseOver={handleHover}
                             onMouseOut={handleMouseOut}
-                            alt="어떤어떤 프로젝트"
+                            alt="기업협약 프로젝트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (5명)</li>
@@ -67,8 +70,8 @@ const Projects = () => {
                         </h2>
 
                         <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            내가 어디 회사랑 협약을 했는데 말이야~ 와 좀만 젊었어도 다 해결했을텐데 말야~ 진짜
-                            어쩌구저쩌구 궁시렁 궁시렁 진짜 해줄거 다해줬는데 안해주네~~~
+                            바운스코드회사와 함께 진행한 협약 프로젝트로써 블록체인 네트워크 내에서 유통되는 토큰, 블록
+                            등에 저장되어 있는 데이터를 확인할 수 있는 사이트를 만들고자 함
                         </p>
 
                         <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
@@ -83,7 +86,7 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>NFT 전체 리스트 페이지, 디테일 페이지 작업</li>
+                            <li>BLOCK 전체 리스트 페이지, 디테일 페이지 작업</li>
                             <li>Token 전체 리스트 페이지, 디테일 페이지 작업</li>
                             <li>반응형 웹 디자인 설계</li>
                             <li>다크모드 개발</li>
@@ -143,15 +146,15 @@ const Projects = () => {
                 {/* 세번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row shadow-lg rounded p-2">
                     <div className="w-full md:w-[420px] ">
-                        <img src={ReactImg} className="w-full" alt="어떤어떤 프로젝트" />
+                        <img src={Node} className="w-full" alt="nodeJS project" />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (3명)</li>
-                            <li className="text-stone-500">2023. 7. 28 ~ 2023.8.28</li>
+                            <li className="text-stone-500">2023. 6. 9 ~ 2023.6.28</li>
                             <li>front-end</li>
                             <li>
                                 <button
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
-                                    onClick={toggleModal2}
+                                    onClick={toggleModal3}
                                 >
                                     상세보기
                                 </button>
@@ -167,8 +170,8 @@ const Projects = () => {
                         </h2>
 
                         <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            다양한 여러 작가들의 등록한 책, 소설을 구매하여 독자들이 작품에 대한 리뷰를 남기며 
-                            취향에 맞는 책과 작가를 찾아가며 소통하는 사이트
+                            다양한 여러 작가들의 등록한 책, 소설을 구매하여 독자들이 작품에 대한 리뷰를 남기며 취향에
+                            맞는 책과 작가를 찾아가며 소통하는 사이트
                         </p>
 
                         <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
@@ -176,8 +179,8 @@ const Projects = () => {
                             <DiJavascript />
                             <DiNodejs />
                             <DiGithubBadge />
-                            <DiHtml5/>
-                            <SiExpress/>
+                            <DiHtml5 />
+                            <SiExpress />
                         </div>
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
@@ -197,6 +200,9 @@ const Projects = () => {
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
                 <ReactSlide />
+            </Modal>
+            <Modal show={isShowingModal3} onCloseButtonClick={toggleModal3}>
+                <NodeSlide />
             </Modal>
         </Wrapper>
     )
