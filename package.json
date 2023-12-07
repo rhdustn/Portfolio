@@ -2,12 +2,11 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://ingoo-blockchain.github.io/portfolio_sample/",
+    "homepage": "https://rhdustn.github.io/Portfolio/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
-        "gh-pages": "^6.1.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-icons": "^4.12.0",
@@ -44,6 +43,7 @@
     "devDependencies": {
         "autoprefixer": "^10.4.16",
         "css-loader": "^6.8.1",
+        "gh-pages": "^6.1.0",
         "postcss": "^8.4.32",
         "postcss-loader": "^7.3.3",
         "style-loader": "^3.3.3",
