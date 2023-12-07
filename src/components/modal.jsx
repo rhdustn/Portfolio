@@ -6,7 +6,6 @@ const Modal = ({ show, onCloseButtonClick, children }) => {
 
     return ReactDOM.createPortal(
         <div
-            onClick={onCloseButtonClick}
             className="fixed top-0 left-0 flex items-center justify-center w-full h-full bg-gray-500 bg-opacity-50"
         >
             <div className="p-8 bg-white rounded-md w-[50%]">
