@@ -49,7 +49,7 @@ const Profile = () => {
             </div>
             <div className="w-[100%] box-border md:w-[70%] md:p-[10px] ">
                 <Hero>
-                    곽인구 <span className="text-[16px] text-slate-400 font-normal">web7722</span>
+                    고연수 <span className="text-[16px] text-slate-400 font-normal">web7722</span>
                 </Hero>
                 <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
                     아주 작은 개발자가 될거야
@@ -57,18 +57,18 @@ const Profile = () => {
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
                     <a href="mailto:web7722@gmail.com" className="flex items-center gap-[5px] text-slate-600">
                         <TfiEmail />
-                        web7722@gmail.com
+                        gys2116@gmail.com
                     </a>
                     <a
                         href="https://github.com/ingoo-blockchain?tab=repositories"
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <IoLogoGithub />
-                        ingoo-blockchain
+                        https://github.com/rhdustn
                     </a>
-                    <a href="https://tistory.com" className="flex items-center gap-[5px] text-slate-600">
+                    <a href="https://responsible-lung-5e7.notion.site/39a8590e73bd4bfe97ace86f5a2d482d?pvs=4" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
-                        blog...
+                        Notion
                     </a>
                 </p>
             </div>
