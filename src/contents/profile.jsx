@@ -5,6 +5,7 @@ import { FaBlogger } from 'react-icons/fa6'
 import { useState, useRef, useEffect } from 'react'
 import { RiNotionFill } from 'react-icons/ri'
 import logo from '../img/logo192.png'
+import img from "../img/KakaoTalk_20231208_110107415.jpg"
 
 const Profile = () => {
     const [isVisible, setIsVisible] = useState(false)
@@ -41,9 +42,9 @@ const Profile = () => {
                 isVisible ? 'opacity-100' : 'opacity-0'
             }`}
         >
-            <div className="w-[20%] md:w-[28%] ">
+            <div className="w-[30%] md:w-[28%] ">
                 <img
-                    src={logo}
+                    src={img}
                     aria-hidden
                     alt="profile image"
                     className="w-[100px] m-auto rounded-full border-2 border-slate-500"
