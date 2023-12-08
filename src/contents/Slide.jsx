@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import NextJs from '../img/1.png'
 import NextJsDark from '../img/1Dark.png'
 import searchbar from "../img/search.png"
-import tokenList from "../img/tokenList.png"
-import tokenDetail from "../img/tokendetail.png"
-import blockList from "../img/block.png"
+import tokenList from "../img/tokenPc.png"
+import tokenDetail from "../img/tokenDetailPc.png"
+import blockList from "../img/BlockDetailPc.png"
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 const Slide = () => {
@@ -30,13 +30,13 @@ const Slide = () => {
 
 
     return (
-        <div className="flex flex-col w-full h-[80%]">
-            <div className="flex flex-row">
+        <div className="flex flex-col w-full h-[70%]">
+            <div className="flex flex-row justify-center">
                 <button onClick={preSlide}>
                     <FaArrowLeft />
                 </button>
-                <div className='h-[50%]'>
-                    <img className='w-[80%]' src={slideImg[currentImg].img} alt={`Slide ${currentImg}`} />
+                <div className='w-[60%] h-[60%]'>
+                    <img src={slideImg[currentImg].img} alt={`Slide ${currentImg}`} />
                 </div>
                 <button onClick={nextSlide}>
                     <FaArrowRight />

@@ -50,12 +50,12 @@ const ReactSlide = () => {
 
     return (
         <div className="flex flex-col w-full">
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center">
                 <button onClick={preSlide} disabled={currentImg === 0}>
                     <FaArrowLeft />
                 </button>
                 <div className=''>
-                    <img className='w-[80%]' src={slideImg[currentImg].img} alt={`Slide ${currentImg}`} />
+                    <img className='w-[60%]' src={slideImg[currentImg].img} alt={`Slide ${currentImg}`} />
                 </div>
                 <button onClick={nextSlide} disabled={currentImg === slideImg.length - 1}>
                     <FaArrowRight />

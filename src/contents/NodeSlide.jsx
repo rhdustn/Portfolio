@@ -7,10 +7,10 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 const NodeSlide = () => {
     const slideImg = [
-        { img: writerPage,content: '작가페이지 입니다'  },
-        { img: readerPage,content: '독자페이지 입니다'  },
-        { img: readerPage2,content: '독자페이지2 입니다'  },
-        { img: chat,content: 'chat 입니다'  },
+        { img: writerPage,content: ''  },
+        { img: readerPage,content: ''  },
+        { img: readerPage2,content: ''  },
+        { img: chat,content: ''  },
     ]
 
     const [currentImg, setCurrentImg] = useState(0)
@@ -25,12 +25,12 @@ const NodeSlide = () => {
 
     return (
         <div className="flex flex-col w-full">
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center">
                 <button onClick={preSlide} disabled={currentImg === 0}>
                     <FaArrowLeft />
                 </button>
-                <div>
-                    <img className='w-[80%]' src={slideImg[currentImg].img} alt={`Slide ${currentImg}`} />
+                <div className='w-[60%]'>
+                    <img src={slideImg[currentImg].img} alt={`Slide ${currentImg}`} />
                 </div>
                 <button onClick={nextSlide} disabled={currentImg === slideImg.length - 1}>
                     <FaArrowRight />
@@ -40,9 +40,7 @@ const NodeSlide = () => {
                 <div>
                     {slideImg[currentImg].content}
                 </div>
-                <div>
-                    {slideImg[currentImg].content2}
-                </div>
+                
                 </div>
             
         </div>
