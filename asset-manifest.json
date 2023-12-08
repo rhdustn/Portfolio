@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.215771a1.css",
-    "main.js": "/Portfolio/static/js/main.d56c9b94.js",
+    "main.css": "/Portfolio/static/css/main.fa41c63b.css",
+    "main.js": "/Portfolio/static/js/main.c5a5874a.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/react.png": "/Portfolio/static/media/react.cea5fd9f01c1acb713c2.png",
     "static/media/boarddetail.png": "/Portfolio/static/media/boarddetail.c094d93b98d252b66047.png",
+    "static/media/KakaoTalk_20231208_110107415.jpg": "/Portfolio/static/media/KakaoTalk_20231208_110107415.c2089038405a085931d1.jpg",
     "static/media/board.png": "/Portfolio/static/media/board.9eed336f828662f67489.png",
     "static/media/reactInfo.png": "/Portfolio/static/media/reactInfo.6ad5159c0d8545d16f4d.png",
     "static/media/reactPhone.png": "/Portfolio/static/media/reactPhone.eb35b3ca9f9e5063acaf.png",
@@ -21,12 +22,12 @@
     "static/media/writerPage.jpg": "/Portfolio/static/media/writerPage.a5fcaf6bb433ac72702c.jpg",
     "static/media/search.png": "/Portfolio/static/media/search.b7f2305d69433ae0dc06.png",
     "index.html": "/Portfolio/index.html",
-    "main.215771a1.css.map": "/Portfolio/static/css/main.215771a1.css.map",
-    "main.d56c9b94.js.map": "/Portfolio/static/js/main.d56c9b94.js.map",
+    "main.fa41c63b.css.map": "/Portfolio/static/css/main.fa41c63b.css.map",
+    "main.c5a5874a.js.map": "/Portfolio/static/js/main.c5a5874a.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.215771a1.css",
-    "static/js/main.d56c9b94.js"
+    "static/css/main.fa41c63b.css",
+    "static/js/main.c5a5874a.js"
   ]
 }
