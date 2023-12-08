@@ -46,7 +46,6 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>interface를 통하여 객체의 타입을 지정하였습니다.</li>
-                                <li>extends를 통하여 기존 인터페이스를 상속받아 확장시켰습니다.</li>
                                 <li>
                                     제네릭타입을 사용하여 커스텀훅과 같이 재사용이 가능한 훅을 더 효율적으로 처리
                                     하였습니다.
@@ -74,8 +73,8 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>react의 생명주기에 대해 숙지했습니다.</li>
-                                <li>react의 virtaul DOM에 대해 숙지했습니다.</li>
-                                <li>함수형 과 객체지향의 차이점을 숙지하였습니다.</li>
+                                <li>props를 사용해 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달을 숙지했습니다.</li>
+                                <li>react에서 re-rendering이 되는 경우를 알고 있습니다.</li>
                                 <li>상태관리에 대해 이해하고 state를 효율적으로 처리했습니다.</li>
                             </ul>
                         </li>
@@ -86,10 +85,10 @@ const Skills = () => {
                                 <span className="md:w-[120px]">NextJS</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Client Component와 Server Component의 차이를 숙지했습니다.</li>
-                                <li>next13 app-routing을 사용해 보았고, 동적 라우팅을 사용해 보았습니다.</li>
+                                <li>next.js의 SSR(server-side-rendering)과 CSR(client-side-rendering)의 차이를 숙지했습니다.</li>
+                                <li>next.js에서 라우팅이 작동하는 방식을 숙지하였습니다</li>
                                 <li>데이터 페치를 진행해 보았습니다</li>
-                                <li>Error 컴포넌트로 찾는 페이지에 데이터가 없으면 나타나는 Error 페이지도 작업해보았습니다.</li>
+                                <li>Error 컴포넌트로 찾는 페이지에 데이터가 없으면 나타나는 Error 페이지를 진행해 보았습니다.</li>
                             </ul>
                         </li>
                     </ul>
@@ -113,7 +112,7 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>Model,Controller로 웹서버의 요청을 받아 데이터를 처리 하였습니다.</li>
-                                <li>JWT 토큰을 발행하여 자동로그인을 만들어 보았습니다.</li>
+                                <li>JWT 토큰을 발행하여 로그인기능을 구현하였습니다.</li>
                             </ul>
                         </li>
                         <div className="  w-11/12   border-[1px] border-gray" />
@@ -129,7 +128,8 @@ const Skills = () => {
                                 </div>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Primary Key ,Foreign Key의 개념을 숙지하고 테이블을 만들었습니다.</li>
+                                <li> Node.js 와 Express 를 사용하여 서버 환경을 구축하였습니다.</li>
+                                <li>Sequelize 를 사용하여 MySQL 데이터베이스 스키마 설계 및 테이블을 구성하였습니다</li>
                             </ul>
                         </li>
                     </ul>
@@ -148,8 +148,7 @@ const Skills = () => {
 
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>EC2 로 react와 nodeJS를 한 인스턴스에 배포한 경험이 있습니다.</li>
-                                <li>가비아에서 도메인을 구입하여 연결한 경험이 있습니다.</li>
+                                <li>EC2를 사용해서 인스턴스에 배포한 경험이 있습니다.</li>
 
                             </ul>
                         </li>
