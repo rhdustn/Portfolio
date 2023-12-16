@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fa41c63b.css",
-    "main.js": "/Portfolio/static/js/main.2fb4bb5c.js",
+    "main.css": "/Portfolio/static/css/main.50e4f059.css",
+    "main.js": "/Portfolio/static/js/main.2334c8ef.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/하늘.gif": "/Portfolio/static/media/하늘.f86423f543af8bc00584.gif",
     "static/media/react.png": "/Portfolio/static/media/react.cea5fd9f01c1acb713c2.png",
     "static/media/boarddetail.png": "/Portfolio/static/media/boarddetail.c094d93b98d252b66047.png",
-    "static/media/KakaoTalk_20231208_110107415.jpg": "/Portfolio/static/media/KakaoTalk_20231208_110107415.c2089038405a085931d1.jpg",
+    "static/media/home.jpg": "/Portfolio/static/media/home.05f4ce66de132ba448fa.jpg",
     "static/media/board.png": "/Portfolio/static/media/board.9eed336f828662f67489.png",
     "static/media/reactInfo.png": "/Portfolio/static/media/reactInfo.6ad5159c0d8545d16f4d.png",
+    "static/media/증명사진.jpg": "/Portfolio/static/media/증명사진.75cf93329e1fb6a7d801.jpg",
     "static/media/reactPhone.png": "/Portfolio/static/media/reactPhone.eb35b3ca9f9e5063acaf.png",
     "static/media/1.png": "/Portfolio/static/media/1.e98a05c29850ca6820bc.png",
     "static/media/1Dark.png": "/Portfolio/static/media/1Dark.be5e3b7fbfbedc72a8d0.png",
@@ -22,12 +24,12 @@
     "static/media/writerPage.jpg": "/Portfolio/static/media/writerPage.a5fcaf6bb433ac72702c.jpg",
     "static/media/search.png": "/Portfolio/static/media/search.b7f2305d69433ae0dc06.png",
     "index.html": "/Portfolio/index.html",
-    "main.fa41c63b.css.map": "/Portfolio/static/css/main.fa41c63b.css.map",
-    "main.2fb4bb5c.js.map": "/Portfolio/static/js/main.2fb4bb5c.js.map",
+    "main.50e4f059.css.map": "/Portfolio/static/css/main.50e4f059.css.map",
+    "main.2334c8ef.js.map": "/Portfolio/static/js/main.2334c8ef.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa41c63b.css",
-    "static/js/main.2fb4bb5c.js"
+    "static/css/main.50e4f059.css",
+    "static/js/main.2334c8ef.js"
   ]
 }
