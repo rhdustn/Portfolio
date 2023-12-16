@@ -34,12 +34,12 @@ const Projects = () => {
 
     return (
         <Wrapper>
-            <Heading>프로젝트</Heading>
+            <Heading>Projects</Heading>
 
-            <ul className="flex flex-col w-full gap-[120px]">
+            <ul className="flex w-full gap-[120px]">
                 {/* 첫번째 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row shadow-lg rounded p-2">
-                    <div className="w-full md:w-[420px] ">
+                <li className="flex flex-col gap-[32px] md:flex-row shadow-lg rounded p-2 bg-white">
+                    <div className="w-full  ">
                         <img
                             src={image}
                             className="w-full"
@@ -95,7 +95,6 @@ const Projects = () => {
                     </div>
                 </li>
 
-                {/* 첫번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row shadow-lg rounded p-2">
                     <div className="w-full md:w-[420px] ">
                         <img src={ReactImg} className="w-full" alt="어떤어떤 프로젝트" />
@@ -143,7 +142,6 @@ const Projects = () => {
                         </ul>
                     </div>
                 </li>
-                {/* 세번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row shadow-lg rounded p-2">
                     <div className="w-full md:w-[420px] ">
                         <img src={Node} className="w-full" alt="nodeJS project" />

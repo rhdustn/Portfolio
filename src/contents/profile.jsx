@@ -4,8 +4,9 @@ import { TfiEmail } from 'react-icons/tfi'
 import { FaBlogger } from 'react-icons/fa6'
 import { useState, useRef, useEffect } from 'react'
 import { RiNotionFill } from 'react-icons/ri'
+import { Wrapper, Heading } from '../components/common'
 import logo from '../img/logo192.png'
-import img from "../img/KakaoTalk_20231208_110107415.jpg"
+import img from "../img/증명사진.jpg"
 
 const Profile = () => {
     const [isVisible, setIsVisible] = useState(false)
@@ -36,6 +37,9 @@ const Profile = () => {
     }, [])
 
     return (
+       <Wrapper> 
+         <Heading>About Me</Heading>
+        <div className='bg-white'>
         <div
             ref={animatedElementRef}
             className={`flex flex-row items-center justify-between gap-[38px] transition-opacity duration-1000 ease-in-out ${
@@ -47,13 +51,17 @@ const Profile = () => {
                     src={img}
                     aria-hidden
                     alt="profile image"
-                    className="w-[100px] m-auto rounded-full border-2 border-slate-500"
+                    className=" m-auto w-64 "
                 />
             </div>
             <div className="w-[100%] box-border md:w-[70%] md:p-[10px] ">
                 <Hero>고연수</Hero>
-                <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">Front-End 개발자</p>
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
+                <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow m-2">
+                        <p className="flex items-center gap-[5px] text-slate-600">
+                        생년월일 2000.05.12
+                        </p>
+                    </button>
                     <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow m-2">
                         <a href="mailto:web7722@gmail.com" className="flex items-center gap-[5px] text-slate-600">
                             <TfiEmail />
@@ -81,6 +89,8 @@ const Profile = () => {
                 </p>
             </div>
         </div>
+        </div>
+        </Wrapper> 
     )
 }
 

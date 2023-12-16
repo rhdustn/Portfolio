@@ -20,7 +20,7 @@ import {
 const Skills = () => {
     return (
         <Wrapper>
-            <Heading>기술 스택</Heading>
+            <Heading>Skills</Heading>
             <ul className="flex flex-col divide-y divide-gray-400">
                 <li className="flex flex-row gap-[32px] py-[32px">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">

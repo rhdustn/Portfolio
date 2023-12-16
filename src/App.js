@@ -1,40 +1,76 @@
-import './App.css'
-import Profile from './contents/profile'
-import Introduce from './contents/introduce'
-import Projects from './contents/projects'
-import Skills from './contents/skills'
-import Footer from './contents/footer'
-import Header from './components/Header'
+import React, { useRef } from 'react';
+import Profile from './contents/profile';
+import Introduce from './contents/introduce';
+import Projects from './contents/projects';
+import Skills from './contents/skills';
+import Footer from './contents/footer';
+import Header from './components/Header';
+import Main from './components/Main';
+import home from "./img/home.jpg"
+import NewProjects from './contents/newProjects';
 
 function App() {
-    return (
-        <>
-        <div className="w-full h-full bg-gradient-to-b to-white from-gray-50">
-                {/* <Header/> */}
-            <div className="w-full md:w-[1100px] mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
-                {/* profile */}
-                <Profile />
-                {/* introduce */}
-                <Introduce />
+  const profileRef = useRef(null);
+  const projectsRef = useRef(null);
+  const skillsRef = useRef(null);
+  const mainRef = useRef(null);
 
-                {/* Project Experience */}
-                <Projects />
+  const scrollToMain = () => {
+    if (mainRef.current) {
+      mainRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-                {/* Skills */}
-                <Skills />
+  const scrollToProfile = () => {
+    if (profileRef.current) {
+      profileRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-                {/* Education */}
-                {/* <Education /> */}
+  const scrollToProjects = () => {
+    if (projectsRef.current) {
+      projectsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-                {/* Certifications */}
-                {/* <Certifications /> */}
+  const scrollToSkills = () => {
+    if (skillsRef.current) {
+      skillsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-                {/* footer */}
-                <Footer />
-            </div>
+
+  return (
+    <>
+     <Header
+     scrollToMain={scrollToMain} 
+          scrollToProfile={scrollToProfile}
+          scrollToProjects={scrollToProjects}
+          scrollToSkills={scrollToSkills}/>
+    <Main/>
+      <div className="w-full h-full bg-gradient-to-b to-white ">
+        <div className="w-full md:w-[1100px] mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
+        <div ref={profileRef}>
+          <Introduce />
+          </div>
+       
+            <Profile />
+         
+          {/* introduce */}
+          {/* Project Experience */}
+          <div ref={projectsRef}>
+            {/* <Projects /> */}
+            <NewProjects/>
+          </div>
+          {/* Skills */}
+          <div ref={skillsRef}>
+            <Skills />
+          </div>
+          <Footer />
         </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
