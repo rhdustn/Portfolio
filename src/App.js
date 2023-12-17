@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import Profile from './contents/profile';
 import Introduce from './contents/introduce';
 import Projects from './contents/projects';
@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import home from "./img/home.jpg"
 import NewProjects from './contents/newProjects';
+
 
 function App() {
   const profileRef = useRef(null);
@@ -39,6 +40,12 @@ function App() {
     }
   };
 
+  const [selectedContent, setSelectedContent] = useState('NewProjects');
+
+  const handleContentChange = (content) => {
+    setSelectedContent(content);
+  };
+
 
   return (
     <>
@@ -57,13 +64,13 @@ function App() {
             <Profile />
          
           {/* introduce */}
-          {/* Project Experience */}
-          <div ref={projectsRef}>
+          {/* Project Experiencea */}
+          <div className='mt-20' ref={projectsRef}>
             {/* <Projects /> */}
             <NewProjects/>
           </div>
           {/* Skills */}
-          <div ref={skillsRef}>
+          <div className='mt-20' ref={skillsRef}>
             <Skills />
           </div>
           <Footer />

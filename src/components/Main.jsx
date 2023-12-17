@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div className="relative ">
       <img className="w-full md:h-[1100px]" src={gif} alt="Main " />
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-7xl font-bold text-center">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-8xl  text-center">
         <AnimatePresence>
           <motion.div
             key="yeons"
@@ -20,7 +20,7 @@ const Main = () => {
             variants={textVariants}
             exit={{ opacity: 0 }}
             style={{
-              WebkitTextStroke: '2px black',
+              WebkitTextStroke: '1px white',
               color: 'transparent',
             }}
           >
@@ -33,11 +33,11 @@ const Main = () => {
             variants={textVariants}
             exit={{ opacity: 0 }}
             style={{
-              WebkitTextStroke: '2px black',
+              WebkitTextStroke: '1px white',
               color: 'transparent',
             }}
           >
-            Frontend-portfolio
+            Frontend portfolio
           </motion.div>
         </AnimatePresence>
       </div>

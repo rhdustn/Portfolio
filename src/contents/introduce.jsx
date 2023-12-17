@@ -6,7 +6,7 @@ const Introduce = () => {
     const { animatedElementRef, isVisible } = useIntersectionObserver(0.7)
 
     return (
-        <div className='mt-10'>
+        <div className='mt-12'>
         <div
             ref={animatedElementRef}
             className={`w-full flex pt-[32px] transition-opacity duration-1000 ease-in-out ${
