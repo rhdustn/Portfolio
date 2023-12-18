@@ -1,35 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.57428d89.css",
-    "main.js": "/Portfolio/static/js/main.01fd1e29.js",
+    "main.css": "/Portfolio/static/css/main.b1cb97b1.css",
+    "main.js": "/Portfolio/static/js/main.4144144b.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/하늘.gif": "/Portfolio/static/media/하늘.f86423f543af8bc00584.gif",
+    "static/media/Travel6.gif": "/Portfolio/static/media/Travel6.0c8a0ca1a7c3c4d3bfe5.gif",
+    "static/media/Travel5.gif": "/Portfolio/static/media/Travel5.d21a7f742e3766e362ea.gif",
+    "static/media/Travel3.gif": "/Portfolio/static/media/Travel3.e086ae6cb121c9859d54.gif",
+    "static/media/Travel4.gif": "/Portfolio/static/media/Travel4.c7f73ac34601bf11c352.gif",
+    "static/media/Travel1.gif": "/Portfolio/static/media/Travel1.b4bcc0f1b9f54c26821b.gif",
     "static/media/react.png": "/Portfolio/static/media/react.cea5fd9f01c1acb713c2.png",
-    "static/media/boarddetail.png": "/Portfolio/static/media/boarddetail.c094d93b98d252b66047.png",
-    "static/media/home.jpg": "/Portfolio/static/media/home.05f4ce66de132ba448fa.jpg",
-    "static/media/board.png": "/Portfolio/static/media/board.9eed336f828662f67489.png",
-    "static/media/reactInfo.png": "/Portfolio/static/media/reactInfo.6ad5159c0d8545d16f4d.png",
+    "static/media/Travel2.gif": "/Portfolio/static/media/Travel2.df277e0b35f79fdcb280.gif",
     "static/media/증명사진.jpg": "/Portfolio/static/media/증명사진.75cf93329e1fb6a7d801.jpg",
-    "static/media/reactPhone.png": "/Portfolio/static/media/reactPhone.eb35b3ca9f9e5063acaf.png",
     "static/media/1.png": "/Portfolio/static/media/1.e98a05c29850ca6820bc.png",
     "static/media/1Dark.png": "/Portfolio/static/media/1Dark.be5e3b7fbfbedc72a8d0.png",
     "static/media/tokenDetailPc.png": "/Portfolio/static/media/tokenDetailPc.9b80210f21ad560b3fa3.png",
-    "static/media/node.png": "/Portfolio/static/media/node.c3e49a0a3690a45fd85e.png",
     "static/media/BlockDetailPc.png": "/Portfolio/static/media/BlockDetailPc.bb38a6938d8522278063.png",
     "static/media/tokenPc.png": "/Portfolio/static/media/tokenPc.60aa1b4368e91da43223.png",
-    "static/media/comments.png": "/Portfolio/static/media/comments.02acc2ea82f988345168.png",
-    "static/media/chat.jpg": "/Portfolio/static/media/chat.2c618ede5ccf80b1e76e.jpg",
-    "static/media/readersPage.jpg": "/Portfolio/static/media/readersPage.93653481b5f9b42a2f3f.jpg",
-    "static/media/readerPage2.jpg": "/Portfolio/static/media/readerPage2.56d26050133e062243cc.jpg",
-    "static/media/writerPage.jpg": "/Portfolio/static/media/writerPage.a5fcaf6bb433ac72702c.jpg",
     "static/media/search.png": "/Portfolio/static/media/search.b7f2305d69433ae0dc06.png",
     "index.html": "/Portfolio/index.html",
-    "main.57428d89.css.map": "/Portfolio/static/css/main.57428d89.css.map",
-    "main.01fd1e29.js.map": "/Portfolio/static/js/main.01fd1e29.js.map",
+    "main.b1cb97b1.css.map": "/Portfolio/static/css/main.b1cb97b1.css.map",
+    "main.4144144b.js.map": "/Portfolio/static/js/main.4144144b.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57428d89.css",
-    "static/js/main.01fd1e29.js"
+    "static/css/main.b1cb97b1.css",
+    "static/js/main.4144144b.js"
   ]
 }
