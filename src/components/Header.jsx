@@ -11,18 +11,18 @@ const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills}) => {
   };
   return (
     <header className='bg-white shadow fixed w-full z-10 font-semibold text-xl'>
-      <div className="container mx-auto flex items-center justify-between py-4">
+      <div className="container mx-auto flex items-center justify-between py-4 ">
         <div className='flex' onClick={scrollToTop}>
           <img src={logo} alt="Logo" className="h-8" /> <div className='ml-4'>Yeon's portfolio</div>
         </div>
-        <nav className="flex items-center space-x-4 ">
-          <div className="text-gray-800 hover:text-blue-300/60" onClick={scrollToProfile}>
+        <nav className="flex items-center space-x-4 mr-5">
+          <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToProfile}>
             About me
           </div>
-          <div className="text-gray-800 hover:text-blue-300/60" onClick={scrollToProjects}>
+          <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToProjects}>
             Projects
           </div>
-          <div className="text-gray-800 hover:text-blue-300/60" onClick={scrollToSkills}>
+          <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToSkills}>
             Skills
           </div>
         </nav>
