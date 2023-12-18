@@ -1,12 +1,10 @@
 import React, { useRef, useState } from 'react';
 import Profile from './contents/profile';
 import Introduce from './contents/introduce';
-import Projects from './contents/projects';
 import Skills from './contents/skills';
 import Footer from './contents/footer';
 import Header from './components/Header';
 import Main from './components/Main';
-import home from "./img/home.jpg"
 import NewProjects from './contents/newProjects';
 
 

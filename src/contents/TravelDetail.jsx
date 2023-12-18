@@ -1,10 +1,13 @@
 import React from 'react'
+import ReactSlide from "../components/Slide/ReactSlide"
 
 const TravelDetail = () => {
     return (
         <div className="w-full h-[600px] flex  ">
           <div className='w-[50%] '>
-            <div className="h-[60%] border"> gif 슬라이드 넣을곳 </div>
+            <div className="h-[60%]">
+                <ReactSlide/>
+            </div>
             <div className='mt-10'>
             <div className='w-28 border-4 rounded-lg border-blue-200 flex justify-center'>리포지토리</div>
             <div>https://github.com/9oodam/Travel-Opener</div>

@@ -1,11 +1,11 @@
 import React from 'react'
-import Slide from "../contents/Slide"
+import Slide from "../components/Slide/Slide"
 
 const BounceDetail = () => {
     return (
         <div className="w-full h-[600px] flex">
             <div className="w-[50%] ">
-                <div className="h-[60%] border">
+                <div className="h-[60%]">
                     <Slide/>
                      </div>
                 <div className="mt-10">

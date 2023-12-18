@@ -1,21 +1,14 @@
 import React, { useState } from 'react'
-import NextJs from '../img/1.png'
-import NextJsDark from '../img/1Dark.png'
-import searchbar from "../img/search.png"
-import tokenList from "../img/tokenPc.png"
-import tokenDetail from "../img/tokenDetailPc.png"
-import blockList from "../img/BlockDetailPc.png"
+import NextJs from '../../img/1.png'
+import NextJsDark from '../../img/1Dark.png'
+import searchbar from "../../img/search.png"
+import tokenList from "../../img/tokenPc.png"
+import tokenDetail from "../../img/tokenDetailPc.png"
+import blockList from "../../img/BlockDetailPc.png"
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 const Slide = () => {
-    const slideImg = [
-      { img: NextJs, content: 'This is the main page' },
-      { img: NextJsDark, content: '...' },
-      { img: searchbar, content: '...' },
-      { img: tokenList, content: '...' },
-      { img: tokenDetail, content: '...' },
-      { img: blockList, content: '...' },
-    ];
+  const slideImg = [NextJs,NextJsDark,searchbar,tokenList,tokenDetail, blockList,];
   
     const [currentImg, setCurrentImg] = useState(0);
   
@@ -37,7 +30,7 @@ const Slide = () => {
             <div>
               <img
                 className="w-full h-[250px]"
-                src={slideImg[currentImg].img}
+                src={slideImg[currentImg]}
                 alt={`Slide ${currentImg}`}
               />
             </div>
