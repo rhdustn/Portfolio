@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import NextJs from '../../img/1.png'
-import NextJsDark from '../../img/1Dark.png'
-import searchbar from "../../img/search.png"
-import tokenList from "../../img/tokenPc.png"
-import tokenDetail from "../../img/tokenDetailPc.png"
-import blockList from "../../img/BlockDetailPc.png"
+import Nextjs1 from "../../img/next_gif/Nextjs1.gif"
+import Nextjs2 from "../../img/next_gif/Nextjs2.gif"
+import Nextjs3 from "../../img/next_gif/Nextjs3.gif"
+import Nextjs4 from "../../img/next_gif/Nextjs4.gif"
+import Nextjs5 from "../../img/next_gif/block.png"
+import Nextjs6 from "../../img/next_gif/BlockDetailPc.png"
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 const Slide = () => {
-  const slideImg = [NextJs,NextJsDark,searchbar,tokenList,tokenDetail, blockList,];
+  const slideImg = [Nextjs1,Nextjs2,Nextjs3,Nextjs4,Nextjs6,Nextjs5];
   
     const [currentImg, setCurrentImg] = useState(0);
   
