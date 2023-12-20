@@ -162,7 +162,7 @@ const Skills = () => {
                     </div>
                     <div className="w-[70%]">
                         <ul className="flex  gap-[16px] text-[16px] pb-[32px] font-medium w-full items-start">
-                            <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
+                            <li className="flex  gap-[8px] md:gap-[32px] md:flex-row items-baseline">
                                 <SiTailwindcss />
                                 <span className="md:w-[120px]">Tailwindcss</span>
                                 <SiStyledcomponents />

@@ -56,10 +56,9 @@ function App() {
       <div className="w-full h-full bg-gradient-to-b to-white ">
         <div className="w-full md:w-[1100px] mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
         <div ref={profileRef}>
-          <Introduce />
+        <Profile />
           </div>
        
-            <Profile />
          
           {/* introduce */}
           {/* Project Experiencea */}

@@ -10,12 +10,12 @@ const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills}) => {
     });
   };
   return (
-    <header className='bg-white shadow fixed w-full z-10 font-semibold text-xl'>
-      <div className="container mx-auto flex items-center justify-between py-4 ">
-        <div className='flex' onClick={scrollToTop}>
-          <img src={logo} alt="Logo" className="h-8" /> <div className='ml-4'>Yeon's portfolio</div>
+    <header className='bg-white shadow fixed w-full z-10 font-semibold text-xl sm:text-sm md:text-xl'>
+      <div className=" w-full flex items-center justify-between py-4 ">
+        <div className='flex ml-2' onClick={scrollToTop}>
+          <img src={logo} alt="Logo" className="h-8 flex items-center justify-center" /> <div className='ml-4'>Yeon's portfolio</div>
         </div>
-        <nav className="flex items-center space-x-4 mr-5">
+        <nav className="flex items-center space-x-4 mr-6">
           <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToProfile}>
             About me
           </div>
