@@ -18,15 +18,15 @@ const Projects = () => {
     return (
         <Wrapper>
             <Heading>Projects</Heading>
-            <div className="flex flex-wrap">
-                <div className="w-full sm:w-full md:w-1/3 lg:w-1/3">
+            <div className="flex">
+                <div className="w-full sm:w-full md:w-1/3">
                     <BounceContent/>
                 </div>
              
-                <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 ">
+                <div className="w-full sm:w-full md:w-1/3">
                     <TravelContent/>
                 </div>
-                <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 ">
+                <div className="w-full sm:w-full md:w-1/3">
                     <PersonalContent/>
                 </div>
             </div>

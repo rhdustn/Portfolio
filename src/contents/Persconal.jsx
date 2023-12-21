@@ -4,7 +4,7 @@ import { SiNextdotjs, SiTypescript, SiTailwindcss, SiExpress } from 'react-icons
 
 const PersonalContent = () => {
   return (
-    <div className=" bg-white shadow-lg w-80 h-[500px] m-2 rounded-2xl hover:scale-110 transition-transform ease-in-out duration-500">
+    <div className=" bg-white shadow-lg w-[350px] h-[500px] m-2 rounded-2xl hover:scale-110 transition-transform ease-in-out duration-500">
             <div className="bg-red-200 h-[200px] rounded-t-2xl">이미지</div>
             <div className="ml-3">
                 <div>
@@ -13,7 +13,7 @@ const PersonalContent = () => {
                 </div>
                 <div className="py-3">
                     <div>
-                      react로 일기장 만들꺼임
+                      next.js로 일기장 만들꺼임
                     </div>
                 </div>
                 <div>

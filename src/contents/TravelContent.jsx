@@ -9,7 +9,7 @@ import ReactImg from "../img/react.png"
 const BounceContent = () => {
     const [isShowingModal, toggleModal] = useModal()
     return (
-        <div className=" bg-white shadow-lg w-80 h-[500px] m-2 rounded-2xl hover:scale-110 transition-transform ease-in-out duration-500 relative">
+        <div className=" bg-white shadow-lg w-[350px] h-[500px] m-2 rounded-2xl hover:scale-110 transition-transform ease-in-out duration-500 relative">
             <div className="bg-red-200 h-[200px] rounded-t-2xl">
                 <img className='w-full h-[220px]  rounded-t-2xl' src={ReactImg} alt="react 메인 이미지" />
             </div>
