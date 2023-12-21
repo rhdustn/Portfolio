@@ -1,14 +1,20 @@
 import React from 'react';
 import logo from "../img/logo.png";
 
-const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills}) => {
-
+const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills, scrollPercentage }) => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   };
+
+  const remainingScroll = 100 - Math.round(scrollPercentage);
+  const progressBarStyle = {
+    width: `${remainingScroll}%`,
+    right: 0 // Adjust the progress bar to fill from right to left
+  };
+
   return (
     <header className='bg-white shadow fixed w-full z-10 font-semibold text-xl sm:text-sm md:text-xl'>
       <div className=" w-full flex items-center justify-between py-4 ">
@@ -26,6 +32,9 @@ const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills}) => {
             Skills
           </div>
         </nav>
+      </div>
+      <div className="bg-blue-300 h-1" style={{ direction: 'rtl' }}>
+        <div className="bg-white h-1" style={progressBarStyle}></div>
       </div>
     </header>
   );

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Profile from './contents/profile';
 import Introduce from './contents/introduce';
 import Skills from './contents/skills';
@@ -13,6 +13,7 @@ function App() {
   const projectsRef = useRef(null);
   const skillsRef = useRef(null);
   const mainRef = useRef(null);
+  const [scrollPercentage, setScrollPercentage] = useState(0);
 
   const scrollToMain = () => {
     if (mainRef.current) {
@@ -44,6 +45,25 @@ function App() {
     setSelectedContent(content);
   };
 
+  const calculateScrollPercentage = () => {
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollTop = window.scrollY || window.pageYOffset || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
+
+    const totalHeight = documentHeight - windowHeight;
+    const scrolled = (scrollTop / totalHeight) * 100;
+
+    setScrollPercentage(scrolled);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', calculateScrollPercentage);
+
+    return () => {
+      window.removeEventListener('scroll', calculateScrollPercentage);
+    };
+  }, []);
+
 
   return (
     <>
@@ -51,10 +71,11 @@ function App() {
      scrollToMain={scrollToMain} 
           scrollToProfile={scrollToProfile}
           scrollToProjects={scrollToProjects}
-          scrollToSkills={scrollToSkills}/>
+          scrollToSkills={scrollToSkills}
+          scrollPercentage={scrollPercentage}/>
     <Main/>
       <div className="w-full h-full bg-gradient-to-b to-white ">
-        <div className="w-full md:w-[1100px] mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
+        <div className="w-full mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
         <div ref={profileRef}>
         <Profile />
           </div>
