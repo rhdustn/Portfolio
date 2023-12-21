@@ -76,12 +76,11 @@ function App() {
     <Main/>
       <div className="w-full h-full bg-gradient-to-b to-white ">
         <div className="w-full mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
+          {/* introduce */}
+          <Introduce/>
         <div ref={profileRef}>
         <Profile />
           </div>
-       
-         
-          {/* introduce */}
           {/* Project Experiencea */}
           <div className='mt-20' ref={projectsRef}>
             {/* <Projects /> */}

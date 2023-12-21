@@ -1,6 +1,7 @@
 import { Hero } from '../components/common'
 import { IoLogoGithub } from 'react-icons/io'
 import { TfiEmail } from 'react-icons/tfi'
+import { IoPhonePortraitOutline, IoPersonSharp } from 'react-icons/io5'
 import { FaBlogger } from 'react-icons/fa6'
 import { useState, useRef, useEffect } from 'react'
 import { RiNotionFill } from 'react-icons/ri'
@@ -47,31 +48,32 @@ const Profile = () => {
                         isVisible ? 'opacity-100' : 'opacity-0'
                     }`}
                 >
-                    <div className="w-full md:w-1/2 ">
-                        <Introduce />
+                    <div className="w-[30%] md:w-[28%] ">
+                        <img src={img} aria-hidden alt="profile image" className=" m-auto w-64 " />
                     </div>
-                    {/* <div className="w-[30%] md:w-[28%] ">
-                <img
-                    src={img}
-                    aria-hidden
-                    alt="profile image" 
-                    className=" m-auto w-64 "
-                />
-            </div> */}
                     <div className="box-border md:w-1/2 ">
                         <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
                             <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 rounded shadow-lg m-2 w-[300px] hover:scale-110 transition-transform ease-in-out duration-500">
-                                <p className="flex items-center gap-[5px] text-slate-600">Name : 고연수</p>
+                                <p className="flex items-center gap-[5px] text-slate-600">
+                                    <IoPersonSharp /> 고연수
+                                </p>
+                            </button>
+                            <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 rounded shadow-lg m-2 w-[300px] hover:scale-110 transition-transform ease-in-out duration-500">
+                                <div className="flex items-center gap-[5px] text-slate-600">
+                                    <IoPhonePortraitOutline />
+                                    010-8574-7116{' '}
+                                </div>
                             </button>
                             <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 rounded shadow-lg m-2 w-[300px] hover:scale-110 transition-transform ease-in-out duration-500">
                                 <a
-                                    href="mailto:web7722@gmail.com"
+                                    href="mailto:gys2116@gmail.com"
                                     className="flex items-center gap-[5px] text-slate-600"
                                 >
                                     <TfiEmail />
                                     gys2116@gmail.com
                                 </a>
                             </button>
+
                             <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 rounded shadow-lg m-2 w-[300px] hover:scale-110 transition-transform ease-in-out duration-500">
                                 <a
                                     href="https://github.com/rhdustn?tab=repositories"
