@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9a327821.css",
-    "main.js": "/Portfolio/static/js/main.281cbe54.js",
+    "main.css": "/Portfolio/static/css/main.c47a33c8.css",
+    "main.js": "/Portfolio/static/js/main.125b07e0.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Nextjs1.gif": "/Portfolio/static/media/Nextjs1.911912baff4eb818bd12.gif",
     "static/media/Nextjs2.gif": "/Portfolio/static/media/Nextjs2.972357678b8f18547e02.gif",
@@ -15,17 +15,20 @@
     "static/media/Travel1.gif": "/Portfolio/static/media/Travel1.b4bcc0f1b9f54c26821b.gif",
     "static/media/react.png": "/Portfolio/static/media/react.cea5fd9f01c1acb713c2.png",
     "static/media/Travel2.gif": "/Portfolio/static/media/Travel2.df277e0b35f79fdcb280.gif",
+    "static/media/diary1.gif": "/Portfolio/static/media/diary1.d59415f7405ea33c5dba.gif",
+    "static/media/diary2.gif": "/Portfolio/static/media/diary2.ce35297c6265ebf3c405.gif",
     "static/media/증명사진.jpg": "/Portfolio/static/media/증명사진.75cf93329e1fb6a7d801.jpg",
     "static/media/1.png": "/Portfolio/static/media/1.e98a05c29850ca6820bc.png",
+    "static/media/diary3.gif": "/Portfolio/static/media/diary3.f3d9f5dc7ab3ff5968b4.gif",
     "static/media/BlockDetailPc.png": "/Portfolio/static/media/BlockDetailPc.bb38a6938d8522278063.png",
     "static/media/block.png": "/Portfolio/static/media/block.721273195bc26065d010.png",
     "index.html": "/Portfolio/index.html",
-    "main.9a327821.css.map": "/Portfolio/static/css/main.9a327821.css.map",
-    "main.281cbe54.js.map": "/Portfolio/static/js/main.281cbe54.js.map",
+    "main.c47a33c8.css.map": "/Portfolio/static/css/main.c47a33c8.css.map",
+    "main.125b07e0.js.map": "/Portfolio/static/js/main.125b07e0.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a327821.css",
-    "static/js/main.281cbe54.js"
+    "static/css/main.c47a33c8.css",
+    "static/js/main.125b07e0.js"
   ]
 }
