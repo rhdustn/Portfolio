@@ -15,7 +15,7 @@ const BounceContent = () => {
             </div>
             <div className="ml-3 mt-5">
                 <div>
-                    <span className="font-semibold text-xl text-slate-700">Travel Opener</span>
+                    <span className="font-semibold text-xl text-slate-700  ">Travel Opener</span>
                     <span className="font-medium">(팀프로젝트 (4명))</span>
                 </div>
                 <div className="py-3">

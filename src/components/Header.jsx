@@ -12,7 +12,7 @@ const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills, scrollPerce
   const remainingScroll = 100 - Math.round(scrollPercentage);
   const progressBarStyle = {
     width: `${remainingScroll}%`,
-    right: 0 // Adjust the progress bar to fill from right to left
+    right: 0
   };
 
   return (
