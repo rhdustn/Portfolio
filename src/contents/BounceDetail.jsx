@@ -10,6 +10,12 @@ const BounceDetail = () => {
                     <div className="text-gray-400 text-sm">슬라이드 뒤에 시현 동영상 있습니다</div>
                 </div>
                 <div className="mt-10">
+                    <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">배포링크</div>
+                    <div>
+                       <a href="https://zerohoney.com/">https://zerohoney.com/</a>
+                    </div>
+                </div>
+                <div className="mt-10">
                     <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">리포지토리</div>
                     <div>https://github.com/zerohoney97/blockExploreFront</div>
                 </div>

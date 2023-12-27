@@ -15,6 +15,8 @@ import {
     SiStyledcomponents,
     SiHtml5,
     SiCss3,
+    SiAmazon,
+    SiRecoil
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -33,9 +35,9 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Javascript</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>var, let, const의 차이점을 알고 목적에 맞게 사용했습니다.</li>
+                                <li>실행컨택스트를 이해해서 자바스크립트 코드가 실행되는 환경을 만들었음.</li>
                                 <li>try,catch문을 활용하여 에러처리하는 방법을 사용하였습니다.</li>
-                                <li>동기,비동기처리를 통하여 실행순서를 효율적으로 처리하였습니다.</li>
+                                <li>이벤트 루프에 대해 이해하고 비동기 코드를 처리했습니다</li>
                             </ul>
                         </li>
 
@@ -45,10 +47,9 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Typescript</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>interface를 통하여 객체의 타입을 지정하였습니다.</li>
+                                <li>typeScript 사용목적에 대해 납득하고 사용했습니다.</li>
                                 <li>
-                                    제네릭타입을 사용하여 커스텀훅과 같이 재사용이 가능한 훅을 더 효율적으로 처리
-                                    하였습니다.
+                                    제네릭타입을 사용하여 커스텀훅과 같이 재사용이 가능한 훅으로 만들어 사용했습니다
                                 </li>
                             </ul>
                         </li>
@@ -70,12 +71,16 @@ const Skills = () => {
                                     <SiRedux />
                                     <span className="md:w-[120px]">Redux</span>
                                 </div>
+                                <div className="flex items-center gap-[8px]">
+                                    <SiRecoil />
+                                    <span className="md:w-[120px]">Recoil</span>
+                                </div>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>react의 생명주기에 대해 숙지했습니다.</li>
-                                <li>props를 사용해 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달을 숙지했습니다.</li>
                                 <li>react에서 re-rendering이 되는 경우를 알고 있습니다.</li>
-                                <li>상태관리에 대해 이해하고 state를 효율적으로 처리했습니다.</li>
+                                <li>상태관리에 대해 이해하고 state를 이용해 .</li>
+                                <li>스토어 안에 필요한 상태를 담아서 사용했습니다.</li>
                             </ul>
                         </li>
                         <div className="  w-11/12   border-[1px] border-gray" />
@@ -87,8 +92,6 @@ const Skills = () => {
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>next.js의 SSR(server-side-rendering)과 CSR(client-side-rendering)의 차이를 숙지했습니다.</li>
                                 <li>next.js에서 라우팅이 작동하는 방식을 숙지하였습니다</li>
-                                <li>데이터 페치를 진행해 보았습니다</li>
-                                <li>Error 컴포넌트로 찾는 페이지에 데이터가 없으면 나타나는 Error 페이지를 진행해 보았습니다.</li>
                             </ul>
                         </li>
                     </ul>
@@ -111,7 +114,6 @@ const Skills = () => {
                                 </div>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Model,Controller로 웹서버의 요청을 받아 데이터를 처리 하였습니다.</li>
                                 <li>JWT 토큰을 발행하여 로그인기능을 구현하였습니다.</li>
                             </ul>
                         </li>
@@ -128,8 +130,8 @@ const Skills = () => {
                                 </div>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li> Node.js 와 Express 를 사용하여 서버 환경을 구축하였습니다.</li>
-                                <li>Sequelize 를 사용하여 MySQL 데이터베이스 스키마 설계 및 테이블을 구성하였습니다</li>
+                                <li> Express 를 사용하여 서버 환경을 구축하였습니다.</li>
+                                <li>Sequelize 를 사용하여 MySQL 데이터베이스 스키마 설계를 해봤습니다</li>
                             </ul>
                         </li>
                     </ul>
@@ -142,13 +144,15 @@ const Skills = () => {
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
                             <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-center gap-[8px]">
                                 <div className="flex items-center gap-[8px]">
-                                    <SiAmazonec2 />
-                                    <span className="md:w-[120px]">Ec2</span>
+                                    <SiAmazon />
+                                    <span className="md:w-[120px]">AWS</span>
                                 </div>
 
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>EC2를 사용해서 인스턴스에 배포한 경험이 있습니다.</li>
+                                <li>EC2를 사용해서 서버 배포한 경험이 있습니다.</li>
+                                <li>Route53.</li>
+                                <li>탄력적 IP.</li>
 
                             </ul>
                         </li>

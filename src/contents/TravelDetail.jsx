@@ -7,9 +7,13 @@ const TravelDetail = () => {
             <div className="w-[50%] ">
                 <div className="h-[60%]">
                     <ReactSlide />
-                <div className='text-gray-400 text-sm'>
-                    슬라이드 뒤에 시현 동영상 있습니다
+                    <div className="text-gray-400 text-sm">슬라이드 뒤에 시현 동영상 있습니다</div>
                 </div>
+                <div className="mt-10">
+                    <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">배포링크</div>
+                    <div>
+                        <a href="https://www.hyunss.com/">https://www.hyunss.com/</a>
+                    </div>
                 </div>
                 <div className="mt-10">
                     <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">리포지토리</div>
@@ -31,25 +35,17 @@ const TravelDetail = () => {
                 <div>
                     <div className="text-lg my-3 font-bold border-b-4 border-blue-200">구현 기능</div>
                     <div>
-                        <div className="font-semibold"> 1. 자유게시판 페이지 작성</div>
+                        <div className="font-semibold"> 1.게시판 페이지 CRUD 구현</div>
                         <div>- 전체 페이지 구현 : 유저들이 작성한 모든 글을 보여줄 수 있는 페이지 구현</div>
-                        <div> - 본인이 쓴 글 수정 삭제 가능</div>
-                    </div>
-                    <br/>
-                    <div>
-                        <div className="font-semibold"> 2. 글 등록 페이지 작성</div>
-                        <div> - 사진 올리기 : 유저가 원하는 사진을 올릴 수 있게 기능을 넣었음</div>
-                        <div> - 리뷰를 작성해서 올리는 기능 구현</div>
-                    </div>
-                    <br/>
-                    <div>
-                        <div className="font-semibold"> 3. 게시판 상세 페이지 작성</div>
-                        <div> - 작성한 게시글, 댓글에 좋아요 버튼 &삭제 기능 구현</div>
+                        <div>- 본인이 쓴 글 수정 삭제 가능</div>
+                        <div> - 사진 올리기 : 유저가 원하는 사진을 올릴 수 있게 기능을 구현</div>
+                        <div> - 작성한 게시글, 댓글에 좋아요 구현</div>
                         <div> - 작성한 게시글에 댓글추가 & 대댓글추가 구현</div>
                     </div>
-                    <br/>
+                    <br />
+
                     <div>
-                        <div className="font-semibold">4. 마이페이지 구현</div>
+                        <div className="font-semibold">2. 마이페이지 구현</div>
                         <div> - 프로필 : 내 정보 변경 가능</div>
                         <div> - 팔로우 : 좋아요 한 게시물과 댓글을 보여주는 기능 구현</div>
                     </div>
