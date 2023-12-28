@@ -19,7 +19,7 @@ const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills, scrollPerce
     <header className='bg-white shadow fixed w-full z-10 font-semibold text-xl sm:text-sm md:text-xl'>
       <div className=" w-full flex items-center justify-between py-4 ">
         <div className='flex ml-2 cursor-pointer' onClick={scrollToTop}>
-          <img src={logo} alt="Logo" className="h-8 flex items-center justify-center" /> <div className='ml-4'>Yeon's portfolio</div>
+          <img src={logo} alt="Logo" className="h-8 flex items-center justify-center" /> <div className='ml-4'>yeon's portfolio</div>
         </div>
         <nav className="flex items-center space-x-4 mr-6">
           <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToProfile}>

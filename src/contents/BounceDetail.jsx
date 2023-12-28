@@ -35,6 +35,7 @@ const BounceDetail = () => {
             </div> */}
                 <div>
                     <div className="text-lg my-3 font-bold border-b-4 border-blue-200">구현 기능</div>
+                    <div className="overflow-y-scroll max-h-[400px] scrollbar-none scrollbar-thumb-blue-200 scrollbar-track-gray-200">
                     <div>
                         <div className="font-semibold"> 1. tokenList 페이지, token detail 페이지 구현</div>
                     </div>
@@ -69,6 +70,7 @@ const BounceDetail = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )

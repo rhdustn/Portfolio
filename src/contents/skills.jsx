@@ -1,6 +1,6 @@
 import { Wrapper, Heading } from '../components/common'
-import { DiJavascript, DiNodejs, DiGithubBadge } from 'react-icons/di'
-import { FaNode } from 'react-icons/fa6'
+import { DiJavascript, DiNodejs, DiGithubBadge, } from 'react-icons/di'
+import { FaNode,FaFigma } from 'react-icons/fa6'
 import {
     SiNextdotjs,
     SiTypescript,
@@ -17,6 +17,7 @@ import {
     SiCss3,
     SiAmazon,
     SiRecoil,
+    SiAmazonroute53,
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -152,6 +153,8 @@ const Skills = () => {
                                     <SiAmazon />
                                     <span className="md:w-[120px]">AWS</span>
                                 </div>
+                                <SiAmazonec2/>
+                                <SiAmazonroute53/>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>EC2를 사용해서 서버 배포한 경험이 있습니다.</li>
@@ -178,6 +181,8 @@ const Skills = () => {
                                 <span className="md:w-[120px]">HTML</span>
                                 <SiCss3 />
                                 <span className="md:w-[120px]">CSS</span>
+                                <FaFigma />
+                                <span className="md:w-[120px]">Figma</span>
                             </li>
                         </ul>
                     </div>

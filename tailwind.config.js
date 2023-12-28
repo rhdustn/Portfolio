@@ -12,5 +12,7 @@ module.exports = {
             lg: { min: '1200px' },
         },
     },
-    plugins: [],
+    plugins: [
+        require('tailwind-scrollbar'),
+    ],
 }

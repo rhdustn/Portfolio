@@ -21,7 +21,7 @@ const Main = () => {
         } else {
           clearInterval(interval);
         }
-      }, 200); // 200 milliseconds interval for each character
+      }, 200); 
     };
 
     
@@ -29,13 +29,13 @@ const Main = () => {
     animateText("yeon's", setFirstText);
     setTimeout(() => {
       animateText('Frontend portfolio', setSecondText);
-    }, 2000); // Wait for 3 seconds before starting the second text animation
+    }, 1500); 
   }, []);
 
 
   return (
     <div className="relative">
-      <img className="w-full h-[900px]" src={gif} alt="Main " />
+      <img className="w-full h-auto" src={gif} alt="Main " />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-7xl text-center sm:text-xl">
         <AnimatePresence>
           <motion.div
