@@ -24,31 +24,12 @@ const PersonalDetail = () => {
                 <div>
                     <div className="text-lg my-3 font-bold border-b-4 border-blue-200">구현 기능</div>
                     <div>
-                        <div className="font-semibold"> 1.전체 DiaryList를 보여줄 수 있는 페이지 구현</div>
+                        <div className="font-semibold"> 1.일기장의 CRUD 구현</div>
                         <div>- 일기를 작성한 년, 월에 따라 DiaryList가 변경 </div>
                         <div>- 최신순 오래된 & 날씨 순으로 나열할 수 있는 토글버튼 구현 </div>
+                        <div>- 조건에 따라 요소의 조건부 렌더링 버튼을 구현하였습니다 </div>
                     </div>
-                    <br />
-                    <div>
-                        <div className="font-semibold"> 2.일기를 작성할 수 있는 페이지 구현</div>
-                        <div>- </div>
-                        <div>-</div>
-                    </div>
-
-                    <br />
-
-                    <div>
-                        <div className="font-semibold"> 3.일기 상세페이지를 볼 수 있는 페이지 구현</div>
-                        <div>- </div>
-                        <div>-</div>
-                    </div>
-                    <br />
-
-                    <div>
-                        <div className="font-semibold"> 4.일기 편집페이지 구현</div>
-                        <div>- </div>
-                        <div>-</div>
-                    </div>
+                   
                 </div>
             </div>
         </div>

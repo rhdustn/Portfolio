@@ -14,19 +14,17 @@ import { useState } from 'react'
 
 
 const Projects = () => {
-
     return (
         <Wrapper>
             <Heading>Projects</Heading>
-            <div className="flex">
-                <div className="w-full sm:w-full md:w-1/3">
+            <div className="flex flex-wrap">
+                <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 mb-4 ">
                     <BounceContent/>
                 </div>
-             
-                <div className="w-full sm:w-full md:w-1/3">
+                <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 mb-4">
                     <TravelContent/>
                 </div>
-                <div className="w-full sm:w-full md:w-1/3">
+                <div className="w-full sm:w-full  md:w-1/2 lg:w-1/3 mb-4">
                     <PersonalContent/>
                 </div>
             </div>
@@ -34,4 +32,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default Projects

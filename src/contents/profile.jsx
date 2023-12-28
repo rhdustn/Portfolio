@@ -48,14 +48,19 @@ const Profile = () => {
                         isVisible ? 'opacity-100' : 'opacity-0'
                     }`}
                 >
-                    <div className="w-[30%] md:w-[28%] ">
-                        <img src={img} aria-hidden alt="profile image" className=" m-auto w-64 " />
+                    <div className="w-[200px] sm:w-full  md:w-1/2 ">
+                        <img src={img} aria-hidden alt="profile image"  />
                     </div>
-                    <div className="box-border md:w-1/2 ">
+                    <div className="box-border sm:w-full  md:w-1/2 ">
                         <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
                             <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 rounded shadow-lg m-2 w-[300px] hover:scale-110 transition-transform ease-in-out duration-500">
-                                <p className="flex items-center gap-[5px] text-slate-600">
-                                    <IoPersonSharp /> 고연수
+                                <p className="flex flex-col items-start gap-[5px] text-slate-600">
+                                    <div>
+                                        NAME : <span className="text-lg font-semibold">고연수</span>{' '}
+                                    </div>
+                                    <div>
+                                        BIRTH : <span>2000.05.12</span>{' '}
+                                    </div>
                                 </p>
                             </button>
                             <button class="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 rounded shadow-lg m-2 w-[300px] hover:scale-110 transition-transform ease-in-out duration-500">
