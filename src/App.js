@@ -75,6 +75,7 @@ function App() {
                 scrollToSkills={scrollToSkills}
                 scrollPercentage={scrollPercentage}
             />
+            <div className='sm:flex items-center justify-center flex-col'>
             <Main />
             <div className="w-full h-full bg-gradient-to-b to-white ">
                 <div className="w-full mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
@@ -94,6 +95,7 @@ function App() {
                     </div>
                     <Footer />
                 </div>
+            </div>
             </div>
         </>
     )

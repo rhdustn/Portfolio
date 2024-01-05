@@ -1,4 +1,4 @@
-export const Wrapper = ({ children }) => <div className="p-[16px] md:pt-[24px] md:py-[16px]">{children}</div>
+export const Wrapper = ({ children }) => <div className="p-[16px] md:pt-[24px] md:py-[16px] ">{children}</div>
 export const Hero = ({ children }) => (
     <h1 className="text-slate-900 font-extrabold text-[32px] md:text-[40px] md:pt-[5px]">{children}</h1>
 )

@@ -17,14 +17,13 @@ const BounceDetail = () => {
                 </div>
                 <div className="mt-10">
                     <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">리포지토리</div>
-                    <div>https://github.com/zerohoney97/blockExploreFront</div>
+                    <div className='sm:w-[150px] md:w-[200px] overflow-y-auto'>https://github.com/zerohoney97/blockExploreFront</div>
                 </div>
             </div>
             <div className="ml-10 w-[50%]">
                 <div>
                     <div className="text-2xl font-bold border-b-4 border-blue-200">프로젝트 소개</div>
                     <div>
-                        {' '}
                         바운스코드회사와 함께 진행한 협약 프로젝트로써 블록체인 네트워크 내에서 유통되는 토큰, 블록 등에
                         저장되어 있는 데이터를 확인할 수 있는 사이트를 만들고자 함
                     </div>
@@ -35,7 +34,7 @@ const BounceDetail = () => {
             </div> */}
                 <div>
                     <div className="text-lg my-3 font-bold border-b-4 border-blue-200">구현 기능</div>
-                    <div className="overflow-y-scroll max-h-[400px] scrollbar-none scrollbar-thumb-blue-200 scrollbar-track-gray-200">
+                    <div className="overflow-y-scroll max-h-[350px] scrollbar-none scrollbar-thumb-blue-200 scrollbar-track-gray-200">
                     <div>
                         <div className="font-semibold"> 1. tokenList 페이지, token detail 페이지 구현</div>
                     </div>

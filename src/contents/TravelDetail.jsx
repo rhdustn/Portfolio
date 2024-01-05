@@ -16,7 +16,7 @@ const TravelDetail = () => {
                     </div>
                 </div>
                 <div className="mt-10">
-                    <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">리포지토리</div>
+                    <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center sm:w-[150px]">리포지토리</div>
                     <div>https://github.com/9oodam/Travel-Opener</div>
                 </div>
             </div>
@@ -34,6 +34,7 @@ const TravelDetail = () => {
                 </div> */}
                 <div>
                     <div className="text-lg my-3 font-bold border-b-4 border-blue-200">구현 기능</div>
+                    <div className="overflow-y-scroll max-h-[350px] scrollbar-none scrollbar-thumb-blue-200 scrollbar-track-gray-200">
                     <div>
                         <div className="font-semibold"> 1.게시판 페이지 CRUD 구현</div>
                         <div>- 전체 페이지 구현 : 유저들이 작성한 모든 글을 보여줄 수 있는 페이지 구현</div>
@@ -49,6 +50,7 @@ const TravelDetail = () => {
                         <div> - 프로필 : 내 정보 변경 가능</div>
                         <div> - 팔로우 : 좋아요 한 게시물과 댓글을 보여주는 기능 구현</div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
