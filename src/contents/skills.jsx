@@ -154,7 +154,9 @@ const Skills = () => {
                                     <span className="md:w-[120px]">AWS</span>
                                 </div>
                                 <SiAmazonec2/>
+                                <span className="md:w-[120px]">EC2</span>
                                 <SiAmazonroute53/>
+                                <span className="md:w-[120px]">Route53</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>EC2를 사용해서 서버 배포한 경험이 있습니다.</li>
