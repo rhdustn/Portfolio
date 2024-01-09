@@ -37,6 +37,7 @@ const BounceDetail = () => {
                     <div className="overflow-y-scroll max-h-[350px] scrollbar-thin scrollbar-thumb-blue-200 scrollbar-track-gray-200">
                     <div>
                         <div className="font-semibold"> 1. tokenList 페이지, token detail 페이지 구현</div>
+                        <div>- token의 name, transaction을 누르면 해당 token의 페이지, 해당 transaction페이지로 가도록 경로를 설정해서 구현 </div>
                     </div>
                     <br />
                     <div>
