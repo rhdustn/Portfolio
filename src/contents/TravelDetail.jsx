@@ -17,7 +17,7 @@ const TravelDetail = () => {
                 </div>
                 <div className="mt-10">
                     <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center sm:w-[150px]">리포지토리</div>
-                    <div>https://github.com/9oodam/Travel-Opener</div>
+                    <a href="https://github.com/9oodam/Travel-Opener">https://github.com/9oodam/Travel-Opener</a>
                 </div>
             </div>
             <div className="ml-10 w-[50%]">

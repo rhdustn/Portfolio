@@ -17,7 +17,7 @@ const BounceDetail = () => {
                 </div>
                 <div className="mt-10">
                     <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">리포지토리</div>
-                    <div className='sm:w-[150px] md:w-[200px] overflow-y-auto'>https://github.com/zerohoney97/blockExploreFront</div>
+                    <a href="https://github.com/zerohoney97/blockExploreFront" className='sm:w-[150px] md:w-[200px] overflow-y-auto'>https://github.com/zerohoney97/blockExploreFront</a>
                 </div>
             </div>
             <div className="ml-10 w-[50%]">
