@@ -7,7 +7,7 @@ const TravelDetail = () => {
             <div className="w-[50%] ">
                 <div className="h-[60%]">
                     <ReactSlide />
-                    <div className="text-gray-400 text-sm">슬라이드 뒤에 시현 동영상 있습니다</div>
+                    <div className="text-gray-400 text-sm">슬라이드 뒤에 시연 동영상 있습니다</div>
                 </div>
                 <div className="mt-10">
                     <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">배포링크</div>

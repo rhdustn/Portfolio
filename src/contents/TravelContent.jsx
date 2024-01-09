@@ -1,6 +1,6 @@
 import React from 'react'
 import { DiJavascript, DiNodejs, DiGithubBadge, DiHtml5, DiReact } from 'react-icons/di'
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiExpress } from 'react-icons/si'
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiExpress,SiAmazonaws,SiMysql } from 'react-icons/si'
 import useModal from '../hooks/useModal'
 import Modal from '../components/modal'
 import TravelDetail from "../contents/TravelDetail"
@@ -33,6 +33,9 @@ const BounceContent = () => {
                         <DiNodejs />
                         <DiGithubBadge />
                         <DiReact />
+                        <SiAmazonaws/>
+                        <SiMysql/>
+                        < SiExpress/>
                     </div>
                 </div>
                 <div
