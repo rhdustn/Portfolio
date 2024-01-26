@@ -90,7 +90,7 @@ const NewSkills = () => {
     }
 
     return (
-        <div className="relative">
+        <div>
             <Wrapper>
                 <Heading>Skills</Heading>
                 <div style={languageStyle}>

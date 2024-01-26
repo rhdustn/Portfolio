@@ -28,9 +28,9 @@ const Header = ({ scrollToProfile, scrollToProjects, scrollToSkills, scrollPerce
           <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToProjects}>
             Projects
           </div>
-          <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToSkills}>
+          {/* <div className="text-gray-800 hover:text-blue-300/60 cursor-pointer" onClick={scrollToSkills}>
             Skills
-          </div>
+          </div> */}
         </nav>
       </div>
       <div className="bg-blue-300 h-1" style={{ direction: 'rtl' }}>

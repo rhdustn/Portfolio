@@ -8,11 +8,9 @@ import Main from './components/Main'
 import NewProjects from './contents/newProjects'
 import NewSkills from './contents/Newskills'
 
-
 function App() {
     const profileRef = useRef(null)
     const projectsRef = useRef(null)
-    const skillsRef = useRef(null)
     const mainRef = useRef(null)
     const [scrollPercentage, setScrollPercentage] = useState(0)
 
@@ -31,12 +29,6 @@ function App() {
     const scrollToProjects = () => {
         if (projectsRef.current) {
             projectsRef.current.scrollIntoView({ behavior: 'smooth' })
-        }
-    }
-
-    const scrollToSkills = () => {
-        if (skillsRef.current) {
-            skillsRef.current.scrollIntoView({ behavior: 'smooth' })
         }
     }
 
@@ -74,7 +66,6 @@ function App() {
                 scrollToMain={scrollToMain}
                 scrollToProfile={scrollToProfile}
                 scrollToProjects={scrollToProjects}
-                scrollToSkills={scrollToSkills}
                 scrollPercentage={scrollPercentage}
             />
             <div className="sm:flex items-center justify-center flex-col">
@@ -82,11 +73,11 @@ function App() {
                 <div className="w-full h-full bg-gradient-to-b to-white ">
                     <div className="w-full mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
                         {/* introduce */}
-                        <div ref={profileRef} className="flex justify-center">
-                            <div style={{ flex: 1 }}>
+                        <div ref={profileRef} className="flex sm:flex-col justify-center">
+                            <div className="w-full sm:w-full md:w-1/2">
                                 <Profile />
                             </div>
-                            <div style={{ flex: 1, paddingLeft: '1rem' }}>
+                            <div className="w-full sm:w-full md:w-1/2">
                                 <NewSkills />
                             </div>
                         </div>

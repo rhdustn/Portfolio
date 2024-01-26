@@ -11,7 +11,7 @@ const Front = ({ onClick, onClick2 }) => {
     return (
         <div className="relative">
             <div
-                className="w-24 h-24 border-4 border-yellow-100 font-semibold flex items-center justify-center rounded-full mb-2 bg-white z-0"
+                className="w-24 h-24 border-4 border-yellow-100 font-semibold flex items-center justify-center rounded-full mb-2 bg-white z-0  sm:w-16 sm:h-16 sm:text-xs text-center"
                 onClick={handleFrontClick}
             >
                 Front-end

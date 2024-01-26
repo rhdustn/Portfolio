@@ -3,7 +3,6 @@ import js from '../../img/skill/javascript.png'
 import ts from '../../img/skill/typescript.png'
 
 const Languages = ({ onClick, onClick2 }) => {
-
     const handleLanguagesClick = () => {
         onClick()
     }
@@ -11,15 +10,13 @@ const Languages = ({ onClick, onClick2 }) => {
     return (
         <div className="relative">
             <div
-                className="w-24 h-24 border-4 border-yellow-100 flex items-center justify-center rounded-full mb-2 bg-white group"
+                className="w-24 h-24 border-4 border-yellow-100 flex items-center justify-center rounded-full mb-2 bg-white group sm:w-16 sm:h-16 sm:text-xs"
                 onClick={handleLanguagesClick}
             >
-             <div className='font-semibold'> Languages
-                </div>  
+                <div className="font-semibold"> Languages</div>
                 {onClick2 && (
                     <>
                         <div className="absolute left-[20%] top-1 z-10 flex ">
-    
                             <img src={js} alt="" className="rounded-md w-16 h-16 " />
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[14px] w-72 p-2 bg-white shadow-xl ml-3 ">
                                 <li>실행컨택스트를 이해해서 자바스크립트 코드가 실행되는 환경을 만들었습니다.</li>

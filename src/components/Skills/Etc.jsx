@@ -1,9 +1,9 @@
 import React from 'react'
-import figma from "../../img/skill/figma.png"
-import css from "../../img/skill/css.png"
-import html from "../../img/skill/html.png"
-import styled from "../../img/skill/styled.jpg"
-import tailiwind from "../../img/skill/tailwind.png"
+import figma from '../../img/skill/figma.png'
+import css from '../../img/skill/css.png'
+import html from '../../img/skill/html.png'
+import styled from '../../img/skill/styled.jpg'
+import tailiwind from '../../img/skill/tailwind.png'
 import {
     SiAmazon,
     SiAmazonec2,
@@ -25,7 +25,7 @@ const Etc = ({ onClick, onClick2 }) => {
     return (
         <div className="relative">
             <div
-                className="w-24 h-24 border-4 border-yellow-100 font-semibold flex items-center justify-center rounded-full mb-2 bg-white z-0"
+                className="w-24 h-24 border-4 border-yellow-100 font-semibold flex items-center justify-center rounded-full mb-2 bg-white z-0  sm:w-16 sm:h-16 sm:text-xs"
                 onClick={handleEtcClick}
             >
                 Etc
@@ -33,22 +33,18 @@ const Etc = ({ onClick, onClick2 }) => {
 
             {onClick2 && (
                 <>
-                    <div className="w-[70%]">
-                        <ul className="flex  gap-[16px] text-[16px] pb-[32px] font-medium w-full items-start">
-                            <li className="flex flex-col   gap-[8px] md:gap-[32px] md:flex-row items-baseline">
-                                <div className='flex' >
+                    <div>
+                        <div className=''>
+                            <div className="flex">
                                 <img src={tailiwind} alt="" className="rounded-md h-16 w-32  " />
                                 <img src={styled} alt="" className="rounded-md ml-4  h-12   " />
-                                  
-                                </div>
-                                <div className='flex'>
+                            </div>
+                            <div className="flex absolute left-[20%] top-[20%]">
                                 <img src={css} alt="" className="rounded-md  h-12  ml-2 " />
                                 <img src={html} alt="" className="rounded-md h-12  ml-2  " />
                                 <img src={figma} alt="" className="rounded-md h-12   ml-2  " />
-
-                                </div>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                     <div className="absolute z-10  ">
                         <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-center gap-[8px]">
