@@ -6,6 +6,8 @@ import Footer from './contents/footer'
 import Header from './components/Header'
 import Main from './components/Main'
 import NewProjects from './contents/newProjects'
+import NewSkills from './contents/Newskills'
+
 
 function App() {
     const profileRef = useRef(null)
@@ -75,27 +77,34 @@ function App() {
                 scrollToSkills={scrollToSkills}
                 scrollPercentage={scrollPercentage}
             />
-            <div className='sm:flex items-center justify-center flex-col'>
-            <Main />
-            <div className="w-full h-full bg-gradient-to-b to-white ">
-                <div className="w-full mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
-                    {/* introduce */}
-                    <div ref={profileRef}>
-                        <Profile />
+            <div className="sm:flex items-center justify-center flex-col">
+                <Main />
+                <div className="w-full h-full bg-gradient-to-b to-white ">
+                    <div className="w-full mx-auto p-[16px] md:p-[30px] box-border flex flex-col">
+                        {/* introduce */}
+                        <div ref={profileRef} className="flex justify-center">
+                            <div style={{ flex: 1 }}>
+                                <Profile />
+                            </div>
+                            <div style={{ flex: 1, paddingLeft: '1rem' }}>
+                                <NewSkills />
+                            </div>
+                        </div>
+                        {/* <Skills/> */}
+                        {/* <div className="mt-20" ref={skillsRef}>
+                       <Skills2/>
+                    </div> */}
+                        <Introduce />
+                        {/* Project Experiencea */}
+                        <div className="mt-20" ref={projectsRef}>
+                            {/* <Projects /> */}
+                            <NewProjects />
+                        </div>
+                        {/* Skills */}
+
+                        <Footer />
                     </div>
-                    <Introduce />
-                    {/* Project Experiencea */}
-                    <div className="mt-20" ref={projectsRef}>
-                        {/* <Projects /> */}
-                        <NewProjects />
-                    </div>
-                    {/* Skills */}
-                    <div className="mt-20" ref={skillsRef}>
-                        <Skills />
-                    </div>
-                    <Footer />
                 </div>
-            </div>
             </div>
         </>
     )
