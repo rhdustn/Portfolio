@@ -90,7 +90,7 @@ const NewSkills = () => {
     }
 
     return (
-        <div>
+        <div className='md:ml-16'>
             <Wrapper>
                 <Heading>Skills</Heading>
                 <div style={languageStyle}>
