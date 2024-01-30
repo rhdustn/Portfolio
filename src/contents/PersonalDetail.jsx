@@ -10,7 +10,7 @@ const PersonalDetail = () => {
                 </div>
                 <div className="mt-10">
                     <div className="w-28 border-4 rounded-lg border-blue-200 flex justify-center">리포지토리</div>
-                    <div>https://github.com/rhdustn/diaryProject.git</div>
+                   <a href="https://github.com/rhdustn/diaryProject.git">https://github.com/rhdustn/diaryProject.git</a>
                 </div>
             </div>
             <div className="ml-10 w-[50%]">
