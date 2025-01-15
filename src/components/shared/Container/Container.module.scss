@@ -1,0 +1,12 @@
+@import '@/styles/mixins';
+
+.base {
+    width: 1400px;
+    max-width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 1200px) {
+        width: 450px;
+    }
+}

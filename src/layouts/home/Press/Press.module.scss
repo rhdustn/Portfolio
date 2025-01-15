@@ -1,0 +1,139 @@
+@import "@/styles/mixins";
+
+.base {
+    margin: -51px 0 0;
+    background: #A058C5;
+    padding: 220px 0 190px;
+    overflow: hidden;
+
+    @media (max-width: 1200px) {
+        padding: 122px 0 64px;
+    }
+}
+
+.title {
+    position: relative;
+    margin-bottom: 48px;
+
+    @media (max-width: 1200px) {
+        margin-bottom: 24px;
+    }
+}
+
+.back {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    font-size: 152px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    opacity: .15;
+    white-space: nowrap;
+
+    @media (max-width: 1200px) {
+        font-size: 72px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.base .heading {
+    margin: 0;
+
+    @media (max-width: 1200px) {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @media (max-width: 1200px) {
+        grid-template-columns: 100%;
+        gap: 16px;
+    }
+}
+
+.article {
+    color: #fff;
+    text-decoration: none;
+
+    @include hover {
+        .preview img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.preview {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    border: 12px solid #fff;
+    border-radius: 32px;
+    background: #FFF;
+    margin-bottom: 12px;
+
+    @media (max-width: 1200px) {
+        border-width: 6px;
+    }
+
+    img {
+        border-radius: 20px;
+        transition: transform 1s;
+        will-change: transform;
+    }
+
+    &:before {
+        content: '';
+        width: 100%;
+        display: block;
+        padding-bottom: 72%;
+
+        @media (max-width: 1200px) {
+            padding-bottom: 59%;
+        }
+    }
+}
+
+.row {
+    display: grid;
+    grid-template-columns: calc(100% - 66px) 54px;
+    gap: 12px;
+    align-items: center;
+    padding: 0 12px;
+
+    @media (max-width: 1200px) {
+        padding: 0;
+        grid-template-columns: calc(100% - 52px) 40px;
+    }
+
+    img {
+        filter: invert(1);
+
+        @media (max-width: 1200px) {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.base .text {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    @media (max-width: 1200px) {
+        font-size: 20px;
+    }
+}

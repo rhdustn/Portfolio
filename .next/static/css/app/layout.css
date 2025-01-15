@@ -1,0 +1,870 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src/fonts/index.ts","import":"","arguments":[{"src":[{"path":"./Montserrat-ExtraBold.woff2","weight":"800","style":"normal"},{"path":"./Montserrat-Medium.woff2","weight":"500","style":"normal"}],"variable":"--font-montserrat"}],"variableName":"montserrat"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__montserrat_ed7cfe';
+src: url(/_next/static/media/75b075b8306aa947-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 800;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__montserrat_ed7cfe';
+src: url(/_next/static/media/aa8ba37ab41f5302-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 500;
+font-style: normal;
+}@font-face {font-family: '__montserrat_Fallback_ed7cfe';src: local("Arial");ascent-override: 83.59%;descent-override: 21.67%;line-gap-override: 0.00%;size-adjust: 115.80%
+}.__className_ed7cfe {font-family: '__montserrat_ed7cfe', '__montserrat_Fallback_ed7cfe'
+}.__variable_ed7cfe {--font-montserrat: '__montserrat_ed7cfe', '__montserrat_Fallback_ed7cfe'
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/normalize.css/normalize.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/shared/Button/Button.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__Qj_Oz {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0;
+  border: none;
+  background: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.Button_button__Qj_Oz:disabled {
+  cursor: not-allowed;
+}
+
+.Button_default__fDF8Z {
+  height: 80px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 24px;
+}
+@media (max-width: 1200px) {
+  .Button_default__fDF8Z {
+    height: 60px;
+    font-size: 16px;
+    border-radius: 16px;
+  }
+}
+
+.Button_primary__Woeqt {
+  background: #fff;
+  color: #0b0c15;
+  transition: color 0.2s;
+}
+@media (hover: hover) {
+  .Button_primary__Woeqt:hover {
+    color: #516FEA;
+  }
+}
+@media (hover: none) {
+  .Button_primary__Woeqt:active {
+    color: #516FEA;
+  }
+}
+
+.Button_gold__uHTCa {
+  background: #FFD80B;
+  color: #592500;
+  transition: filter 0.2s;
+  will-change: filter;
+}
+@media (hover: hover) {
+  .Button_gold__uHTCa:hover {
+    filter: brightness(1.1);
+  }
+}
+@media (hover: none) {
+  .Button_gold__uHTCa:active {
+    filter: brightness(1.1);
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/shared/Heading/Heading.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Heading_heading1__5pFMA,
+.Heading_heading2__fGDbA,
+.Heading_heading3__d402n,
+.Heading_heading4__aIFF0 {
+  font-style: normal;
+}
+
+.Heading_heading2__fGDbA {
+  color: #FFF;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media (max-width: 1200px) {
+  .Heading_heading2__fGDbA {
+    font-size: 32px;
+  }
+}
+.Heading_heading2__fGDbA b {
+  font-weight: inherit;
+  color: #F4ADEE;
+}
+
+.Heading_heading3__d402n {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media (max-width: 1200px) {
+  .Heading_heading3__d402n {
+    font-size: 24px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/shared/Logotype/Logotype.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Logotype_base__qHu5i {
+  width: 159px;
+  height: 81px;
+}
+@media (max-width: 1200px) {
+  .Logotype_base__qHu5i {
+    width: 100px;
+    height: 51px;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/shared/Text/Text.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Text_size__16__v4kAD {
+  font-size: 16px;
+}
+
+.Text_size__18__VfFQ5 {
+  font-size: 18px;
+}
+
+.Text_size__20__NHn4b {
+  font-size: 20px;
+}
+
+.Text_size__22__n0cqx {
+  font-size: 22px;
+}
+
+.Text_size__24__rXHU2 {
+  font-size: 24px;
+}
+
+.Text_theme__500__Xm4oH {
+  font-weight: 500;
+}
+
+.Text_theme__800__c8t4m {
+  font-weight: 800;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/shared/Container/Container.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Container_base__Dcs1T {
+  width: 1400px;
+  max-width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1200px) {
+  .Container_base__Dcs1T {
+    width: 450px;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/Footer/Footer.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_base__AatS_ {
+  padding: 64px 0;
+  border-radius: 54px 54px 0px 0px;
+  background: #090910;
+}
+@media (max-width: 1200px) {
+  .Footer_base__AatS_ {
+    padding: 64px 0;
+    border-radius: 24px 24px 0 0;
+  }
+}
+
+.Footer_container__7AGDW {
+  display: grid;
+  grid-template-columns: calc(68% - 64px) 32%;
+  grid-gap: 64px;
+  gap: 64px;
+}
+@media (max-width: 1200px) {
+  .Footer_container__7AGDW {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Footer_logo__oqoeK {
+    order: -5;
+  }
+}
+
+.Footer_base__AatS_ .Footer_socialsTitle__zNaC7 {
+  margin: 0 0 16px;
+}
+@media (max-width: 1200px) {
+  .Footer_base__AatS_ .Footer_socialsTitle__zNaC7 {
+    font-size: 16px;
+  }
+}
+
+.Footer_socialsList__k1Io2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .Footer_socials__nBPiT {
+    order: -2;
+  }
+}
+
+.Footer_social__cW3W3 {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
+}
+@media (hover: hover) {
+  .Footer_social__cW3W3:hover {
+    color: #516FEA;
+  }
+}
+@media (hover: none) {
+  .Footer_social__cW3W3:active {
+    color: #516FEA;
+  }
+}
+
+.Footer_tokens__qUo9j {
+  max-width: 694px;
+}
+@media (max-width: 1200px) {
+  .Footer_tokens__qUo9j {
+    order: -4;
+  }
+}
+
+.Footer_tokensList__ffb3H {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12px 32px;
+  gap: 12px 32px;
+}
+@media (max-width: 1200px) {
+  .Footer_tokensList__ffb3H {
+    gap: 4px 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.Footer_tokensTitle__yGXGy {
+  margin: 0 0 22px;
+}
+
+.Footer_base__AatS_ .Footer_token__PHBVO {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
+}
+@media (max-width: 1200px) {
+  .Footer_base__AatS_ .Footer_token__PHBVO {
+    gap: 10px;
+  }
+  .Footer_base__AatS_ .Footer_token__PHBVO img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (hover: hover) {
+  .Footer_base__AatS_ .Footer_token__PHBVO:hover {
+    color: #516FEA;
+  }
+}
+@media (hover: none) {
+  .Footer_base__AatS_ .Footer_token__PHBVO:active {
+    color: #516FEA;
+  }
+}
+.Footer_base__AatS_ .Footer_token__PHBVO p {
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  .Footer_base__AatS_ .Footer_token__PHBVO p {
+    font-size: 14px;
+  }
+}
+
+.Footer_docsTitle__YWRp_ {
+  margin: 0 0 22px;
+}
+
+.Footer_docsList__hrins {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 12px;
+  gap: 12px;
+}
+@media (max-width: 1200px) {
+  .Footer_docsList__hrins {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Footer_docs__WD5H6 {
+    order: -3;
+  }
+}
+
+.Footer_doc__gqKUb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
+}
+@media (max-width: 1200px) {
+  .Footer_doc__gqKUb {
+    gap: 10px;
+  }
+}
+@media (hover: hover) {
+  .Footer_doc__gqKUb:hover {
+    color: #516FEA;
+  }
+}
+@media (hover: none) {
+  .Footer_doc__gqKUb:active {
+    color: #516FEA;
+  }
+}
+.Footer_doc__gqKUb p {
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  .Footer_doc__gqKUb p {
+    font-size: 14px;
+  }
+}
+
+.Footer_copyright__1ODhL {
+  color: #6F728B;
+  margin: 0;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/Header/Header.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_base__jsY4S {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.Header_container__Aasa1 {
+  display: grid;
+  align-items: center;
+  grid-gap: 24px;
+  gap: 24px;
+  grid-template-columns: 1fr auto 1fr;
+  padding: 20px 0;
+}
+@media (max-width: 1200px) {
+  .Header_container__Aasa1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+}
+
+.Header_nav____I21 {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+@media (max-width: 1200px) {
+  .Header_nav____I21 {
+    display: none;
+  }
+}
+
+.Header_link__suN3m {
+  text-decoration: none;
+  color: white;
+  background: none;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+@media (hover: hover) {
+  .Header_link__suN3m:hover {
+    color: #0C1A1E;
+  }
+}
+@media (hover: none) {
+  .Header_link__suN3m:active {
+    color: #0C1A1E;
+  }
+}
+
+.Header_socials__WoxgW {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.Header_social__xSY9d {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
+}
+@media (max-width: 1200px) {
+  .Header_social__xSY9d svg {
+    width: 32px;
+    height: auto;
+  }
+}
+@media (hover: hover) {
+  .Header_social__xSY9d:hover {
+    color: #0C1A1E;
+  }
+}
+@media (hover: none) {
+  .Header_social__xSY9d:active {
+    color: #0C1A1E;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/BaseLayout/BaseLayout.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.BaseLayout_base__LDRD5 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: clip;
+}
+
+.BaseLayout_content__3fj8U {
+  flex-grow: 1;
+}
+
+.BaseLayout_header__jMWLM {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.BaseLayout_footer__bDyNk {
+  flex-shrink: 0;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[13].use[5]!./src/styles/globals.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+html,
+body {
+  color: #fff;
+  background: #000;
+  font-family: var(--font-montserrat), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: clip;
+}
+
+button:focus {
+  outline: none;
+}

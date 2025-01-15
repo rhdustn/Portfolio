@@ -1,0 +1,52 @@
+@import "@/styles/mixins";
+
+// @Button component styles.
+.button {
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0;
+	border: none;
+	background: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: inherit;
+
+	&:disabled {
+		cursor: not-allowed;
+	}
+}
+
+.default {
+	height: 80px;
+	font-size: 20px;
+	font-weight: 800;
+	border-radius: 24px;
+
+    @media (max-width: 1200px) {
+        height: 60px;
+        font-size: 16px;
+        border-radius: 16px;
+    }
+}
+
+.primary {
+	background: #fff;
+	color: #0b0c15;
+    transition: color .2s;
+
+    @include hover {
+        color: #516FEA;
+    }
+}
+
+.gold {
+    background: #FFD80B;
+    color: #592500;
+    transition: filter .2s;
+    will-change: filter;
+
+    @include hover {
+        filter: brightness(1.1);
+    }
+}

@@ -1,0 +1,40 @@
+@import "@/styles/mixins";
+
+.heading1,
+.heading2,
+.heading3,
+.heading4 {
+	font-style: normal;
+}
+
+.heading1 {}
+
+.heading2 {
+    color: #FFF;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    @media (max-width: 1200px) {
+        font-size: 32px;
+    }
+
+    b {
+        font-weight: inherit;
+        color: #F4ADEE;
+    }
+}
+
+.heading3 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    @media (max-width: 1200px) {
+        font-size: 24px;
+    }
+}
+
+.heading4 {}

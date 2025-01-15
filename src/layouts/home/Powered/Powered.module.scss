@@ -1,0 +1,110 @@
+@import "@/styles/mixins";
+
+.base {
+    background: linear-gradient(180deg, #6947B9 0%, #B15EC9 100%);
+    position: relative;
+    padding: 278px 0 108px;
+    overflow: hidden;
+
+    @media (max-width: 1200px) {
+        padding: 84px 0 64px;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 1920px;
+        height: 59px;
+        left: 50%;
+        top: -1px;
+        transform: translateX(-50%);
+        background: url('/powered/border.webp') center center / 100% auto no-repeat;
+    }
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 19px;
+
+    @media (max-width: 1200px) {
+        margin-bottom: 25px;
+    }
+}
+
+.backgroundTitle {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    font-size: 152px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .15;
+
+    @media (max-width: 1200px) {
+        font-size: 72px;
+    }
+}
+
+.heading {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+.base .text {
+    color: white;
+    line-height: 133%;
+
+    @media (max-width: 1200px) {
+        font-size: 16px;
+    }
+}
+
+.title, .text, .button {
+    position: relative;
+    z-index: 1;
+}
+
+.base .button {
+    justify-content: space-between;
+    width: 390px;
+    padding: 0 8px 0 20px;
+    font-size: 20px;
+
+    @media (max-width: 1200px) {
+        width: 300px;
+        padding: 0 6px 0 12px;
+        font-size: 16px;
+        margin: 0 auto;
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
+
+.illstr {
+    margin: -215px 0 -197px;
+
+    @media (max-width: 1200px) {
+        width: 500px;
+        max-width: initial;
+        max-height: inherit;
+        height: auto;
+        margin: -87px 0 -115px;
+        align-self: center;
+    }
+}
